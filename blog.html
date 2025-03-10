@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>To Do List</title>
+
+
+</head>
+<body>
+    <section class="bg-white w-3/4 mx-auto rounded-md mb-4">
+        <header class="h-auto shadow-sm p-3">
+          <nav class="flex justify-between">
+            <div class="flex justify-center items-center gap-2">
+              <img  class="h-8 w8" src="assets/logo.png" alt="" />
+              <p>Dev<span class="font-bold">Board</span></p>
+            </div>
+            <div class="flex justify-center items-center gap-5"  >
+                <button class="bg-blue-800 p-2 text-white rounded-lg" id="back">Back to Home</button>
+            </div>
+          </nav>
+        </header>
+      </section>
+
+
+      <section class="bg-white w-3/4 mx-auto rounded-md mb-4">
+       <h1 class="font-bold text-3xl text-center mb-3">Blogs</h1>
+        
+      <article class="flex flex-col gap-4">
+
+        <div class="rounded-md shadow-md p-2 font-bold">
+          <h1>What are the Different ways to select an element in the Dom</h1>
+          <hr>
+          <p> <ul class="text-gray-500">
+            <li>getElementById()</li>
+            <li>getElementsByClassName()</li>
+            <li>getElementsByTagName()</li>
+            <li>querySelector()</li>
+            querySelectorAll()
+          </ul></p>
+
+        </div>
+        <div class="rounded-md shadow-md p-2  font-bold"> <h1>What is the Difference between innerText,innerHTML and innerContent</h1>
+          <hr>
+          <p> <ul class="text-gray-500">
+              <li> innerText : returns text nodes which are visible</li>
+              <li>innerHTML : returns content including HTML tags</li>
+              <li>innerContent : return text nodes visible and hidden both</li>
+          </ul></p>
+          </div>
+        <div class="rounded-md shadow-md p-2 font-bold"> <h1>What is an Event Delegation in the DOM</h1>
+          <hr>
+          <p class="text-gray-500">Event delegation is a technique where you attach a single event listener to a parent element, and it listens for events from its child elements using event bubbling.</p>
+          </div>
+        <div class="rounded-md shadow-md p-2 font-bold"> <h1>What is an Event Bubbling in the DOM</h1>
+          <hr>
+          <p class="text-gray-500"> Event bubbling is a process where an event propagates from the child to the parent nodes</p>
+          </div>
+        <div class="rounded-md shadow-md p-2 font-bold "> <h1>How do you create, add and remove elements in javaScript</h1>
+          <hr>
+          <p><ul class="text-gray-500">
+            <li>Create: createElement()</li>
+            <li>Add: append() or appendChild()</li>
+            <li>Remove: remove()</li>
+          </ul></p>
+          </div>
+
+
+
+
+
+      </article>
+
+        
+    </section>
+
+            
+
+    <script src="blog.js">
+
+    </script>
+</body>
+
+
+</html>
